@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #a7aeb1;
+    color: #222;
+}
+
+header {
+    background: #1e293b;
+    color: white;
+    padding: 15px;  
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background: #334155;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+nav button:hover {
+    background: #475569;
+}
+
+main {
+    padding: 20px;
+}
+
+.modulo {
+    display: none;
+    background: rgb(196, 227, 237);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.modulo.activo {
+    display: block;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.btn-principal {
+    background: #16a34a;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn-principal:hover {
+    background: #15803d;
+}
+
+.btn-secundario {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn-secundario:hover {
+    background: #1d4ed8;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.checklist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.contenedor-lista {
+    background: #e2e8f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.barra-progreso {
+    width: 100%;
+    height: 20px;
+    background: #cbd5e1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.barra {
+    height: 100%;
+    width: 0%;
+    background: #16a34a;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#listaBitacora, #listaRepuestos, #listaServicios {
+    background: #f1f5f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabla th {
+    background: #1e293b;
+    color: white;
+    padding: 10px;
+}
+
+.tabla td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tabla tr:nth-child(even) {
+    background: #f1f5f9;
+}
+
+#buscarFactura {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
